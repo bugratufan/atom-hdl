@@ -11,7 +11,7 @@
       },
       {
         "label": "Create Instance from Component",
-        "command": "atom-hdl:convert-component-to-instance"
+        "command": "atom-hdl:analyze-component"
       },
       {
         "label": "Paste Instance",
@@ -40,7 +40,7 @@
             },
             {
               "label": "Create Instance from Component",
-              "command": "atom-hdl:convert-component-to-instance"
+              "command": "atom-hdl:analyze-component"
             },
             {
               "label": "Paste Instance",
@@ -62,7 +62,7 @@
   "keymap": [
     {
       "atom-workspace": {
-        "alt-ctrl-c": "atom-hdl:convert-component-to-instance",
+        "alt-ctrl-c": "atom-hdl:analyze-component",
         "alt-ctrl-e": "atom-hdl:analyze-entity",
         "alt-ctrl-i": "atom-hdl:paste-instance",
         "alt-ctrl-x": "atom-hdl:paste-constraints",
