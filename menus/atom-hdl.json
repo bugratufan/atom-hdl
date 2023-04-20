@@ -24,6 +24,10 @@
       {
         "label": "Paste Signal Decleration",
         "command": "atom-hdl:paste-signal-decleration"
+      },
+      {
+        "label": "Update Header",
+        "command": "atom-hdl:update-header"
       }
     ]
   },
@@ -34,6 +38,10 @@
         {
           "label": "atom-hdl",
           "submenu": [
+            {
+              "label": "Create New VHDL File",
+              "command": "atom-hdl:create-vhdl-file"
+            },
             {
               "label": "Analyze Entity",
               "command": "atom-hdl:analyze-entity"
@@ -53,6 +61,10 @@
             {
               "label": "Paste Signal Decleration",
               "command": "atom-hdl:paste-signal-decleration"
+            },
+            {
+              "label": "Update Header",
+              "command": "atom-hdl:update-header"
             }
           ]
         }
@@ -62,11 +74,13 @@
   "keymap": [
     {
       "atom-workspace": {
+        "alt-ctrl-v": "atom-hdl:create-vhdl-file",
         "alt-ctrl-c": "atom-hdl:analyze-component",
         "alt-ctrl-e": "atom-hdl:analyze-entity",
         "alt-ctrl-i": "atom-hdl:paste-instance",
         "alt-ctrl-x": "atom-hdl:paste-constraints",
-        "alt-ctrl-d": "atom-hdl:paste-signal-decleration"
+        "alt-ctrl-d": "atom-hdl:paste-signal-decleration",
+        "alt-ctrl-r": "atom-hdl:update_header"
       }
     }
   ]

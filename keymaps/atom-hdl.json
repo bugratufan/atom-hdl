@@ -1,10 +1,12 @@
 {
   "atom-workspace": {
+      "alt-ctrl-v": "atom-hdl:create-vhdl-file",
       "alt-ctrl-o": "atom-hdl:toggle",
       "alt-ctrl-c": "atom-hdl:analyze-component",
       "alt-ctrl-e": "atom-hdl:analyze-entity",
       "alt-ctrl-i": "atom-hdl:paste-instance",
       "alt-ctrl-x": "atom-hdl:paste-constraints",
-      "alt-ctrl-d": "atom-hdl:paste-signal-decleration"
+      "alt-ctrl-d": "atom-hdl:paste-signal-decleration",
+      "alt-ctrl-r": "atom-hdl:update_header"
   }
 }

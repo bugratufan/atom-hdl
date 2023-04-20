@@ -1,14 +1,11 @@
 {
   "name": "atom-hdl",
   "main": "./lib/atom-hdl",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "VHDL package for Atom IDE",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-hdl:toggle"
-  },
-  "repository": "https://github.com/atom/atom-hdl",
+  "repository": "https://github.com/bugratufan/atom-hdl",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
