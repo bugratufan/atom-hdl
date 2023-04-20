@@ -1,0 +1,73 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-hdl",
+        "command": "atom-hdl:toggle"
+      },
+      {
+        "label": "Analyze Entity",
+        "command": "atom-hdl:analyze-entity"
+      },
+      {
+        "label": "Create Instance from Component",
+        "command": "atom-hdl:convert-component-to-instance"
+      },
+      {
+        "label": "Paste Instance",
+        "command": "atom-hdl:paste-instance"
+      },
+      {
+        "label": "Paste Constraints",
+        "command": "atom-hdl:paste-constraints"
+      },
+      {
+        "label": "Paste Signal Decleration",
+        "command": "atom-hdl:paste-signal-decleration"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-hdl",
+          "submenu": [
+            {
+              "label": "Analyze Entity",
+              "command": "atom-hdl:analyze-entity"
+            },
+            {
+              "label": "Create Instance from Component",
+              "command": "atom-hdl:convert-component-to-instance"
+            },
+            {
+              "label": "Paste Instance",
+              "command": "atom-hdl:paste-instance"
+            },
+            {
+              "label": "Paste Constraints",
+              "command": "atom-hdl:paste-constraints"
+            },
+            {
+              "label": "Paste Signal Decleration",
+              "command": "atom-hdl:paste-signal-decleration"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keymap": [
+    {
+      "atom-workspace": {
+        "alt-ctrl-c": "atom-hdl:convert-component-to-instance",
+        "alt-ctrl-e": "atom-hdl:analyze-entity",
+        "alt-ctrl-i": "atom-hdl:paste-instance",
+        "alt-ctrl-x": "atom-hdl:paste-constraints",
+        "alt-ctrl-d": "atom-hdl:paste-signal-decleration"
+      }
+    }
+  ]
+}
