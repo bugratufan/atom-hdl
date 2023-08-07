@@ -14,5 +14,5 @@
 -- Last Changed By   : %%
 -- Designer
 --          Name     : Bugra Tufan
---          E-mail   : btufan21@ku.edu.tr
+--          E-mail   : bugra.tufan.ext@rohde-schwarz.com
 -- ===============================================================================================
