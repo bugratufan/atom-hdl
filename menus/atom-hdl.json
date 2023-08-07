@@ -28,6 +28,14 @@
       {
         "label": "Update Header",
         "command": "atom-hdl:update-header"
+      },
+      {
+        "label": "Auto Typecasting",
+        "command": "atom-hdl:typecast"
+      },
+      {
+        "label": "Init VHDL File",
+        "command": "atom-hdl:init"
       }
     ]
   },
@@ -65,6 +73,14 @@
             {
               "label": "Update Header",
               "command": "atom-hdl:update-header"
+            },
+            {
+              "label": "Auto Typecasting",
+              "command": "atom-hdl:typecast"
+            },
+            {
+              "label": "Init VHDL File",
+              "command": "atom-hdl:init"
             }
           ]
         }
@@ -80,7 +96,9 @@
         "alt-ctrl-i": "atom-hdl:paste-instance",
         "alt-ctrl-x": "atom-hdl:paste-constraints",
         "alt-ctrl-d": "atom-hdl:paste-signal-decleration",
-        "alt-ctrl-r": "atom-hdl:update_header"
+        "alt-ctrl-h": "atom-hdl:update_header",
+        "alt-ctrl-t": "atom-hdl:typecast",
+        "alt-ctrl-f": "atom-hdl:init"
       }
     }
   ]
