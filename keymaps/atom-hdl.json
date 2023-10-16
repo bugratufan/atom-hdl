@@ -1,13 +1,14 @@
 {
   "atom-workspace": {
-      "alt-ctrl-v": "atom-hdl:create-vhdl-file",
-      "alt-ctrl-c": "atom-hdl:analyze-component",
-      "alt-ctrl-e": "atom-hdl:analyze-entity",
-      "alt-ctrl-i": "atom-hdl:paste-instance",
-      "alt-ctrl-x": "atom-hdl:paste-constraints",
-      "alt-ctrl-d": "atom-hdl:paste-signal-decleration",
-      "alt-ctrl-h": "atom-hdl:update_header",
-      "alt-ctrl-t": "atom-hdl:typecast",
-      "alt-ctrl-f": "atom-hdl:init"
+    "alt-ctrl-v": "atom-hdl:create-vhdl-file",
+    "alt-ctrl-c": "atom-hdl:analyze-component",
+    "alt-ctrl-e": "atom-hdl:analyze-entity",
+    "alt-ctrl-i": "atom-hdl:paste-instance",
+    "alt-ctrl-x": "atom-hdl:paste-constraints",
+    "alt-ctrl-d": "atom-hdl:paste-signal-decleration",
+    "alt-ctrl-h": "atom-hdl:update-header",
+    "alt-ctrl-t": "atom-hdl:typecast",
+    "alt-ctrl-f": "atom-hdl:init",
+    "alt-ctrl-a": "atom-hdl:auto-align"
   }
 }

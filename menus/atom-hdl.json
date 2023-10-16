@@ -36,7 +36,11 @@
       {
         "label": "Init VHDL File",
         "command": "atom-hdl:init"
-      }
+    },
+    {
+        "label": "Auto Align Selected Part",
+        "command": "atom-hdl:auto-align"
+    }
     ]
   },
   "menu": [
@@ -81,6 +85,10 @@
             {
               "label": "Init VHDL File",
               "command": "atom-hdl:init"
+            },
+            {
+              "label": "Auto Align Selected Part",
+              "command": "atom-hdl:auto-align"
             }
           ]
         }
@@ -96,9 +104,10 @@
         "alt-ctrl-i": "atom-hdl:paste-instance",
         "alt-ctrl-x": "atom-hdl:paste-constraints",
         "alt-ctrl-d": "atom-hdl:paste-signal-decleration",
-        "alt-ctrl-h": "atom-hdl:update_header",
+        "alt-ctrl-h": "atom-hdl:update-header",
         "alt-ctrl-t": "atom-hdl:typecast",
-        "alt-ctrl-f": "atom-hdl:init"
+        "alt-ctrl-f": "atom-hdl:init",
+        "alt-ctrl-a": "atom-hdl:auto-align"
       }
     }
   ]
