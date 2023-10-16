@@ -10,21 +10,22 @@ Atom HDL is an [Atom IDE](https://atom.io/) package that provides support for VH
 - Creation of new VHDL files
 - Typecasting assistance
 - VHDL initialization assistance
+- Auto aligning features for "=>", "<=" and ":" characters
 
 ## Commands
 
 This package provides the following commands:
 
 
-- atom-hdl:create-vhdl-file: Create a new VHDL file
-- atom-hdl:analyze-component: Analyze the selected VHDL component
-- atom-hdl:analyze-entity: Analyze the VHDL entity in the current editor
-- atom-hdl:paste-instance: Paste the generated instance
-- atom-hdl:paste-constraints: Paste the generated constraints
-- atom-hdl:paste-signal-declaration: Paste the generated signal declarations
-- atom-hdl:update_header: Update the header of the current VHDL file
-- atom-hdl:typecast: Assist with typecasting in VHDL
-- atom-hdl:init: Initialize VHDL code or structures
+- atom-hdl:analyze-component        : Analyze the selected VHDL component
+- atom-hdl:analyze-entity           : Analyze the VHDL entity in the current editor
+- atom-hdl:paste-instance           : Paste the generated instance
+- atom-hdl:paste-constraints        : Paste the generated constraints
+- atom-hdl:paste-signal-declaration : Paste the generated signal declarations
+- atom-hdl:update_header            : Update the header of the current VHDL file
+- atom-hdl:typecast                 : Assist with typecasting in VHDL
+- atom-hdl:init                     : Initialize VHDL code or structures
+- atom-hdl:auto-align               : Auto align selected block
 
 ## Keymaps
 
@@ -39,3 +40,4 @@ This package provides the following keybindings:
 - alt-ctrl-h: Update the header of the current VHDL file
 - alt-ctrl-t: Assist with typecasting in VHDL
 - alt-ctrl-f: Initialize VHDL code or structures
+- alt-ctrl-a: Auto align selected block
